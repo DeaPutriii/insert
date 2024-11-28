@@ -94,7 +94,7 @@ class _BookListPageState extends State<BookListPage> {
                     child: ListTile(
                       leading: Icon(
                         Icons.book,
-                        color: Colors.cyanAccent[50],
+                        color: const Color.fromARGB(255, 23, 251, 251)[50],
                         size: 40,
                       ),
                       title: Text(book['judul'] ?? 'No Judul',
